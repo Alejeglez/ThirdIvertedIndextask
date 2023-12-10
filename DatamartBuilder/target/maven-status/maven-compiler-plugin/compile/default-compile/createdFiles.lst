@@ -1,0 +1,13 @@
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Datalake.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Controller.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\BrokerCommunicator.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\FileDatalake.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\SqliteWriter.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\DatabaseWriter.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\MongoDBDatamart.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Word.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Associate.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Datamart.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Book.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\Main.class
+software\ulpgc\bigData\InvertedIndex\DatamartBuilder\ArtemisCommunicator.class
