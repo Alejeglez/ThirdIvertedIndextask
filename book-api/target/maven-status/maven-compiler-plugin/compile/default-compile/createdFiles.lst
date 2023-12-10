@@ -1,0 +1,13 @@
+software\ulpgc\bigData\InvertedIndex\BookApi\Command.class
+software\ulpgc\bigData\InvertedIndex\BookApi\DataManagerMongo.class
+software\ulpgc\bigData\InvertedIndex\BookApi\SqliteReader.class
+software\ulpgc\bigData\InvertedIndex\BookApi\SparkWebService.class
+software\ulpgc\bigData\InvertedIndex\BookApi\APISource.class
+software\ulpgc\bigData\InvertedIndex\BookApi\Book.class
+software\ulpgc\bigData\InvertedIndex\BookApi\DatabaseReader.class
+software\ulpgc\bigData\InvertedIndex\BookApi\Main.class
+software\ulpgc\bigData\InvertedIndex\BookApi\Word.class
+software\ulpgc\bigData\InvertedIndex\BookApi\Controller.class
+software\ulpgc\bigData\InvertedIndex\BookApi\MongoDBReader.class
+software\ulpgc\bigData\InvertedIndex\BookApi\Associate.class
+software\ulpgc\bigData\InvertedIndex\BookApi\DataManagerSqlite.class
