@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
+    volumes:
+      - D:\Alejandro\Documents\Universidad\Tercero\BD\MongoDB:/data/db
+    networks:
+      - my-network
+
+  #nginx:
+  #  image: nginx:alpine
+  #  hostname: 'nginx'
+  #  volumes:
+  #    - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #    - ./nginx/proxy.conf:/etc/nginx/proxy.conf:ro
+  #    - ./nginx/ssl/localhost.crt:/etc/ssl/certs/localhost.crt:ro
+  #    - ./nginx/ssl/localhost.key:/etc/ssl/certs/localhost.key:ro
+  #    - ./nginx/logs/:/var/log/nginx/
+  #  ports:
+  #    - '80:80'
+  #  depends_on:
+  #    - api-jar
+  #  restart: always
+
+  api-jar:
+    image: mmdezr/inverted_index:api-jar
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
+    networks:
+      - my-network
+
+networks:
+  my-network:
